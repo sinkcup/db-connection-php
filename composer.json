@@ -1,0 +1,18 @@
+{
+    "name": "sinkcup/db-connection-php",
+    "description": "数据库连接查询封装（PHP composer版）",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "sinkcup",
+            "homepage": "http://cnblogs.com/sink_cup/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DB\\Connection\\": "src/"
+        }
+    }
+}
